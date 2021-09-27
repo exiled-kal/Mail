@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import SettingsIcon from "@material-ui/icons/Settings";
 import AppsIcon from "@material-ui/icons/Apps";
-import { IconButton, Avatar } from "@material-ui/core";
+import { IconButton,Avatar } from "@material-ui/core";
 
 import "./css/header.css";
 
@@ -43,7 +43,7 @@ const Header = () => {
         <IconButton>
           <AppsIcon></AppsIcon>
         </IconButton>
-        <Avatar src=""></Avatar>
+        <Avatar name="Kalden"></Avatar>
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ const Header = () => {
         <IconButton>
           <AppsIcon></AppsIcon>
         </IconButton>
-        <Avatar src=""></Avatar>
+        <Avatar name="Kalden"></Avatar>
       </div>
     </div>
   );

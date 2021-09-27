@@ -1,14 +1,9 @@
 import React from "react";
-
 import ReorderIcon from "@material-ui/icons/Reorder";
 import SearchIcon from "@material-ui/icons/Search";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
-import SettingsIcon from "@material-ui/icons/Settings";
-import AppsIcon from "@material-ui/icons/Apps";
-import { IconButton, Avatar } from "@material-ui/core";
-
-import "./css/header.css";
+import { IconButton } from "@material-ui/core";
+import './css/header.css'
 
 const Header = () => {
   return (
@@ -23,28 +18,17 @@ const Header = () => {
         />
       </div>
       <div className="header__middle">
-        <div className="search__mail">
+        <div className="search_mail">
           <IconButton>
-            <SearchIcon></SearchIcon>
+            <SearchIcon />
           </IconButton>
           <input type="text" placeholder="search your mail" />
           <IconButton>
-            <ExpandMoreIcon></ExpandMoreIcon>
+            <ExpandMoreIcon />
           </IconButton>
         </div>
       </div>
-      <div className="header__right">
-        <IconButton>
-          <HelpOutlineIcon></HelpOutlineIcon>
-        </IconButton>
-        <IconButton>
-          <SettingsIcon></SettingsIcon>
-        </IconButton>
-        <IconButton>
-          <AppsIcon></AppsIcon>
-        </IconButton>
-        <Avatar src=""></Avatar>
-      </div>
+      <div className="header__right"></div>
     </div>
   );
 };

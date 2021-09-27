@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import SettingsIcon from "@material-ui/icons/Settings";
 import AppsIcon from "@material-ui/icons/Apps";
-import { IconButton, Avatar } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 
 import "./css/header.css";
 
@@ -25,11 +25,11 @@ const Header = () => {
       <div className="header__middle">
         <div className="search__mail">
           <IconButton>
-            <SearchIcon></SearchIcon>
+            <SearchIcon  ></SearchIcon>
           </IconButton>
           <input type="text" placeholder="search your mail" />
           <IconButton>
-            <ExpandMoreIcon></ExpandMoreIcon>
+            <ExpandMoreIcon />
           </IconButton>
         </div>
       </div>
@@ -38,12 +38,11 @@ const Header = () => {
           <HelpOutlineIcon></HelpOutlineIcon>
         </IconButton>
         <IconButton>
-          <SettingsIcon></SettingsIcon>
+          <ExpandMoreIcon />
         </IconButton>
         <IconButton>
-          <AppsIcon></AppsIcon>
+          <ExpandMoreIcon />
         </IconButton>
-        <Avatar src=""></Avatar>
       </div>
     </div>
   );
